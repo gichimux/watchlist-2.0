@@ -1,6 +1,6 @@
 import unittest
-from models import movie
-Movie = movie.Movie
+from app.models import Movie
+
 class MovieTest(unittest.TestCase):
     '''
     test class to test the behavior of the movie class
@@ -15,5 +15,3 @@ class MovieTest(unittest.TestCase):
         def test_instance(self):
             self.assertTrue(isinstance(self.new_movie, Movie))
 
-    if if __name__ == "__main__":
-        unittest.main()
