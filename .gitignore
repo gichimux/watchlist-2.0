@@ -1,3 +1,4 @@
 virtual/
-*.code
+*.pyc
 instance/
+.vscode
